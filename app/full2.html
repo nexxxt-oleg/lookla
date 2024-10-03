@@ -1,0 +1,51 @@
+<!--#set var="title" value="Главная" -->
+<!--#include virtual="/parts/header.html" -->
+<div class="main__wrap main__wrap--full">
+    <div class="full-screen">
+        <div class="full-screen__header">
+            <div class="full-screen__header__left">
+                <a href="" class="circle-link">
+                    <svg width="12" height="12">
+                        <use xlink:href="#svg-close"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="full-screen__header__right">
+                <a href="" class="circle-btn">
+                    <svg width="16" height="16">
+                        <use xlink:href="#svg-text"></use>
+                    </svg>
+                    Добавить текст
+                </a>
+            </div>
+        </div>
+        <div class="full-screen__img">
+            <img src="images/dist/sos.jpg" alt="">
+
+        </div>
+    </div>
+    <div class="main__wrap__navbar">
+        <div class="footer-submit-post">
+            <div class="footer-submit-post__label">Показать</div>
+            <div class="footer-submit-post__variants">
+                <label for="all" class="custom-radio">
+                    <input type="radio" value="Всем" checked name="sharing" id="all">
+                    <span>Всем</span>
+                </label>
+                <label for="friends" class="custom-radio">
+                    <input type="radio" value="Друзьям" name="sharing" id="friends">
+                    <span>Друзьям</span>
+                </label>
+            </div>
+            <div class="footer-submit-post__right">
+                <button class="footer-submit-post__btn">
+                    <svg width="22" height="22">
+                        <use xlink:href="#svg-next"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--#include virtual="/parts/footer.html" -->
