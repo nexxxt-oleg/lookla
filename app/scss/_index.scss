@@ -1268,6 +1268,7 @@ button:active {
   height: calc(100vh - 175px);
   top: 175px;
   padding-bottom: 75px;
+  padding-top: 40px;
   left: 0;
   width: 100%;
   display: flex;
@@ -1275,7 +1276,7 @@ button:active {
 
   &__ava {
     display: flex;
-    margin-top: -48px;
+    margin-top: -88px;
     padding-bottom: 10px;
     justify-content: center;
 
